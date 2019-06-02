@@ -1,5 +1,5 @@
-#ifndef __VOXEL_GRID_INL_H__
-#define __VOXEL_GRID_INL_H__
+#ifndef __PCLX_VOXEL_GRID_H__
+#define __PCLX_VOXEL_GRID_H__
 
 #include <iostream>
 #include <unordered_map>
@@ -7,7 +7,7 @@
 #include <float.h>
 #include <stdio.h>
 #include <math.h>
-#include "mio/math/math.hpp"
+#include "mio/math/math.h"
 #include "pclx/core.h"
 
 
@@ -111,5 +111,5 @@ void CVoxelGrid<CloudType>::ComputeVoxelGrid(CloudType &src_cloud, CloudType &ds
 
 } //namespace pclx
 
-#endif //__VOXEL_GRID_INL_H__
+#endif //__PCLX_VOXEL_GRID_H__
 

@@ -1,3 +1,6 @@
+#ifndef __PCLX_STAT_OUT_REM__
+#define __PCLX_STAT_OUT_REM__
+
 #include "pclx/core.h"
 
 namespace pclx{
@@ -45,3 +48,4 @@ void StatOutRem(const CloudType &src_cloud, CloudType &dst_cloud,
 
 } //namespace pclx
 
+#endif //__PCLX_STAT_OUT_REM__
